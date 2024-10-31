@@ -15,7 +15,23 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <main></main>
+    <main>
+      <div class="container">
+        <h1>Text To Speech <span class="accent-word">Converter</span></h1>
+        <textarea
+          name="text"
+          id="text"
+          placeholder="Write your text here..."
+          rows="10"
+          cols="10"
+          required
+        ></textarea>
+        <div class="options">
+          <select name="language" id="language"></select>
+          <button type="button">Listen</button>
+        </div>
+      </div>
+    </main>
 
     <script type="module" src="./main.js"></script>
   </body>
