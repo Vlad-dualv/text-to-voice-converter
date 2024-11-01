@@ -76,6 +76,7 @@ textarea::placeholder {
 }
 
 select {
+  overflow: hidden;
   cursor: pointer;
   margin-bottom: 30px;
   width: 100%;
